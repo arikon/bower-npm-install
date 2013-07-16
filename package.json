@@ -13,6 +13,9 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "bin": {
+    "bower-npm-install": "bin/bower-npm-install"
+  },
   "dependencies": {
     "q": "~0.9.6",
     "coa": "~0.4.0",
