@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "q": "~0.9.6",
-    "coa": "~0.4.0"
+    "coa": "~0.4.0",
+    "q-io": "~1.9.1"
   },
   "peerDependencies": {
     "bower": "~0.10.0"
