@@ -1,0 +1,31 @@
+{
+  "name": "bower-npm-install",
+  "version": "0.0.0",
+  "homepage": "http://github.com/arikon/bower-npm-install",
+  "author": "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)",
+  "bugs": {
+    "url": "http://github.com/arikon/tpl-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arikon/bower-npm-install.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "q": "~0.9.6",
+    "coa": "~0.4.0"
+  },
+  "peerDependencies": {
+    "bower": "~0.10.0"
+  },
+  "optionalDependencies": {},
+  "main": "lib/index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/arikon/bower-npm-install/raw/master/LICENSE"
+    }
+  ]
+}
