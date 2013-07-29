@@ -10,3 +10,21 @@ It is a convenient tool to run `npm install` on every [bower](http://bower.io) d
 1. Install it `npm -g install bower-npm-install`
 2. `cd` to your project root with `bower.json`
 3. Run `bower-npm-install` and see the output
+
+## API usage
+
+### Example
+```js
+var bowerNpmInstall = require('bower-npm-install');
+
+bowerNpmInstall(/*paths, options, config*/)
+    .on('log', function(data) {
+        console.log(data);
+    })
+    .on('error', function(err) {
+        console.error(err);
+    })
+    .on('end', function(installed) {
+        console.log('Installed packages: ' + JSON.stringify(installed, null, 2));
+    });
+```
