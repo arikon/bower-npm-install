@@ -23,7 +23,7 @@
     "lodash": "~1.3.1",
     "cli-color": "~0.2.2",
     "update-notifier": "~0.1.3",
-    "byline": "~3.1.1"
+    "byline": "git://github.com/SevInf/node-byline.git#72778f6d356f5f3dc17122fd00df747daf02d693"
   },
   "peerDependencies": {
     "bower": "~1.1.0"
