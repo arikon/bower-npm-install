@@ -26,7 +26,7 @@
     "byline": "git://github.com/SevInf/node-byline.git#2c546e682d503667ead0001090ecb9f27f62d928"
   },
   "peerDependencies": {
-    "bower": "~1.2.6"
+    "bower": "~1.2.7"
   },
   "optionalDependencies": {},
   "main": "lib/index.js",
