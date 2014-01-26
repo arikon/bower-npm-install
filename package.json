@@ -20,14 +20,14 @@
     "q": "~0.9.6",
     "coa": "~0.4.0",
     "q-io": "~1.9.1",
-    "lodash": "~1.3.1",
-    "cli-color": "~0.2.2",
-    "update-notifier": "~0.1.3",
+    "lodash": "~2.4.1",
+    "cli-color": "~0.2.3",
+    "update-notifier": "~0.1.7",
     "byline": "git://github.com/SevInf/node-byline.git#2c546e682d503667ead0001090ecb9f27f62d928",
-    "inquirer": "~0.3.0"
+    "inquirer": "~0.4.0"
   },
   "peerDependencies": {
-    "bower": "~1.2.7"
+    "bower": "~1.2.8"
   },
   "optionalDependencies": {},
   "main": "lib/index.js",
@@ -41,6 +41,7 @@
     }
   ],
   "devDependencies": {
-    "jshint": "~2.1.4"
+    "bower": "~1.2.8",
+    "jshint": "~2.4.3"
   }
 }
