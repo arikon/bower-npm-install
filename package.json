@@ -27,7 +27,7 @@
     "inquirer": "~0.4.0"
   },
   "peerDependencies": {
-    "bower": "git://github.com/SevInf/bower.git#ad31df09fb8e6f0b632a235f1f037425089f169f"
+    "bower": "git://github.com/arikon/bower.git#ed868f51778c292604be8c109d27a8bd1019798f"
   },
   "optionalDependencies": {},
   "main": "lib/index.js",
@@ -41,7 +41,7 @@
     }
   ],
   "devDependencies": {
-    "bower": "~1.2.8",
+    "bower": "git://github.com/arikon/bower.git#ed868f51778c292604be8c109d27a8bd1019798f",
     "jshint": "~2.4.3"
   }
 }
