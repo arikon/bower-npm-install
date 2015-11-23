@@ -17,14 +17,15 @@
     "bower-npm-install": "bin/bower-npm-install"
   },
   "dependencies": {
-    "q": "~0.9.6",
-    "coa": "~0.4.0",
-    "q-io": "~1.9.1",
-    "lodash": "~2.4.1",
-    "cli-color": "~0.2.3",
-    "update-notifier": "~0.1.7",
+    "bower-logger": "^0.2.2",
     "byline": "git://github.com/SevInf/node-byline.git#2c546e682d503667ead0001090ecb9f27f62d928",
-    "inquirer": "~0.4.0"
+    "cli-color": "~0.2.3",
+    "coa": "~0.4.0",
+    "inquirer": "~0.4.0",
+    "lodash": "~2.4.1",
+    "q": "~0.9.6",
+    "q-io": "~1.9.1",
+    "update-notifier": "~0.1.7"
   },
   "peerDependencies": {
     "bower": "*"
