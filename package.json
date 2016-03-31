@@ -11,26 +11,25 @@
     "url": "git://github.com/arikon/bower-npm-install.git"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "bin": {
     "bower-npm-install": "bin/bower-npm-install"
   },
   "dependencies": {
     "bower-logger": "^0.2.2",
-    "byline": "git://github.com/SevInf/node-byline.git#2c546e682d503667ead0001090ecb9f27f62d928",
+    "byline": "~4.2.0",
     "cli-color": "~0.2.3",
     "coa": "~0.4.0",
-    "inquirer": "~0.4.0",
-    "lodash": "~2.4.1",
-    "q": "~0.9.6",
-    "q-io": "~1.9.1",
-    "update-notifier": "~0.1.7"
+    "inquirer": "~0.12.0",
+    "lodash": "~4.6.1",
+    "q": "~1.4.1",
+    "q-io": "~1.13.2",
+    "update-notifier": "~0.6.3"
   },
   "peerDependencies": {
     "bower": "*"
   },
-  "optionalDependencies": {},
   "main": "lib/index.js",
   "scripts": {
     "test": "jshint lib"
